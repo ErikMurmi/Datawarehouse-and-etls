@@ -1,0 +1,199 @@
+numero_cliente,nombre,direccion,telefono,correo,sector,representante
+1,Yang PLC,"Vial José Mari Estevez 80
+Jaén, 23474",+34 880485240,balduinomena@example.net,Banca,Jennifer Hubbard
+2,Hartman LLC,"Urbanización Noemí Corominas 33
+Córdoba, 45141",+34978876702,saguirre@example.org,Comunicaciones,Melissa Carter
+3,"Miller, Bell and Boyd","Via Isaura Soriano 4 Puerta 2 
+Vizcaya, 06718",+34828 356 555,amando40@example.net,Alimentos,John Jenkins
+4,Price and Sons,"Urbanización de Martín Alberto 468 Puerta 6 
+Palencia, 27326",+34 926955333,ojara@example.com,Alimentos,Jennifer Byrd
+5,Castillo-Figueroa,"Alameda Yolanda Pereira 80 Puerta 1 
+Ávila, 51724",+34881 08 64 67,qvara@example.net,Banca,Miguel Wagner
+6,Smith-Long,"Avenida Paulina Sosa 8 Apt. 29 
+Girona, 41125",+34 924874626,lupe85@example.net,Banca,Drew Miller
+7,Sandoval Group,"Cañada Maite Carbó 55 Puerta 8 
+La Coruña, 18120",+34818066037,dlorenzo@example.net,Comunicaciones,Carol Brown
+8,Murphy-Sexton,"Cañada de Josep Barrena 62 Apt. 60 
+Baleares, 06692",+34 944 084 698,mohamed24@example.net,Banca,Michelle Patton
+9,Duncan and Sons,"Cuesta Chus Trillo 95 Apt. 02 
+Ceuta, 01065",+34878396072,diegueziris@example.org,Educacion,Lauren Hernandez
+10,Patel-Boyd,"Camino de Cruz Acosta 299
+Baleares, 08555",+34972403951,yessicaoliveras@example.com,Banca,James Conway
+11,"Robertson, Campbell and Kim","Cañada Montserrat Higueras 62 Apt. 96 
+La Rioja, 01466",+34 901 173 431,candelario76@example.org,Banca,Becky Hansen
+12,"Schneider, Johnson and Meyer","Pasadizo de Consuelo Vara 1 Apt. 70 
+La Rioja, 07520",+34 947 409 470,hrico@example.com,Comunicaciones,Sharon Savage
+13,Vaughn-Hill,"Pasadizo de Paula Palomares 383
+Barcelona, 50847",+34 882 461 464,mnicolas@example.org,Gubernamental,Aaron Martin
+14,"Brooks, Ballard and Morgan","Via Ángela Pol 14 Piso 0 
+Ávila, 07113",+34820 94 83 96,emperatriz28@example.net,Alimentos,Brian Lowery
+15,"Yoder, Rodriguez and Lester","Calle de Adoración Palomar 657 Puerta 8 
+Ávila, 48141",+34 618 96 39 90,eduardopintor@example.org,Educacion,Donald Serrano
+16,"Christian, Rodriguez and Nelson","Pasaje Marcelo Nebot 36 Piso 2 
+Cáceres, 38941",+34984 771 996,aesparza@example.com,Alimentos,Kelly Chambers
+17,Terry PLC,"Camino de Reyna Batlle 51
+Segovia, 38889",+34 823 146 914,fabregatadoracion@example.com,Banca,Jeffrey Johnson
+18,Smith Inc,"Pasadizo Alonso Nicolás 47 Puerta 5 
+Huesca, 39060",+34875 159 992,patricio40@example.org,Educacion,Aaron Morris
+19,"Johnson, Stanton and Daugherty","Via Etelvina Boada 584 Puerta 2 
+Zamora, 47612",+34881 19 91 24,nzapata@example.com,Comunicaciones,Matthew Johnson
+20,Montgomery-Vargas,"Plaza de Teodoro Cabezas 494
+Toledo, 30050",+34944 73 97 26,dalmausilvestre@example.net,Educacion,James Alexander
+21,"Joseph, White and Pitts","Pasadizo Joaquín Santiago 91
+Cádiz, 42855",+34978 65 49 96,brunofranch@example.net,Gubernamental,Brian Wright
+22,Cook Ltd,"Callejón de Buenaventura Perez 90
+Salamanca, 37331",+34936515752,pgallego@example.org,Banca,Charlene Mack
+23,Grimes-Smith,"C. de Venceslás Sainz 1
+Toledo, 12041",+34920 103 396,ecasado@example.org,Alimentos,Allen Yates
+24,Buckley-Harris,"Urbanización Aránzazu Solana 25 Piso 8 
+Huesca, 11345",+34965128841,jennybelmonte@example.org,Banca,Sarah Nichols
+25,"Sullivan, Welch and Pena","Paseo de Macarena León 35
+Palencia, 49121",+34900 890 998,trini60@example.com,Gubernamental,Gary Schwartz
+26,Hall Ltd,"Paseo de Cecilia Valenciano 75
+Burgos, 05424",+34723 57 45 95,morenoclara@example.com,Alimentos,Victoria Kline
+27,"Lee, Jones and Owens","Calle Leocadio Daza 2
+Navarra, 49841",+34847495849,moratarebeca@example.net,Educacion,Kimberly Robinson
+28,Cox-Wilkinson,"Cañada Felix Ramírez 54
+Lugo, 09426",+34941 46 54 49,griseldacabello@example.com,Alimentos,Ryan Mitchell
+29,Carey-Silva,"Urbanización María Luisa Sebastián 81 Puerta 1 
+Salamanca, 03563",+34 859 547 645,jverdejo@example.com,Comunicaciones,Kathryn Mcclure
+30,Knox-Hicks,"Alameda Candelario Atienza 999 Puerta 5 
+León, 24957",+34972841327,villegaslalo@example.org,Banca,Jamie Tyler
+31,"Delgado, Austin and Garcia","Callejón de Tito Girona 78
+Huelva, 25273",+34974 424 292,milagros07@example.org,Educacion,Jessica Pham
+32,Byrd-Taylor,"Alameda de Melisa Guillén 29
+Melilla, 41777",+34956 898 459,candido92@example.com,Alimentos,Timothy Deleon
+33,Rojas-Vincent,"Cuesta Gastón Camino 66 Piso 7 
+Alicante, 13916",+34826 16 95 34,carolinaroyo@example.net,Comunicaciones,Virginia Pitts
+34,Willis Ltd,"Pasadizo Borja Escrivá 22 Puerta 3 
+Ávila, 12622",+34 902 04 73 41,joaquin36@example.net,Comunicaciones,Bryan Greer
+35,"Richardson, Clark and Stevenson","Glorieta Sofía Morán 1
+Vizcaya, 08566",+34 874 710 877,rosalindajodar@example.net,Comunicaciones,Mary Gregory
+36,Curtis Group,"Avenida Clarisa Aroca 6 Apt. 00 
+Alicante, 21308",+34 846 122 921,maite83@example.org,Alimentos,Brian Nelson
+37,Chavez-Martin,"Pasaje de Micaela Bou 29
+Girona, 20517",+34 611643493,eliabad@example.net,Banca,James Garcia
+38,Aguilar LLC,"Glorieta de Juan Bautista Zabala 3 Puerta 3 
+Vizcaya, 37530",+34 987 529 850,otilia69@example.com,Banca,Kayla Castillo
+39,"Stone, Harrington and Cox","Rambla de Isidora Palacio 61 Piso 4 
+Huesca, 06950",+34 842 562 860,carballoviviana@example.net,Comunicaciones,Marvin Newton
+40,Barnes Ltd,"Paseo Isidoro Pulido 329
+Málaga, 10024",+34881 10 96 18,torrensamor@example.net,Banca,Maureen Reynolds
+41,Matthews-Lewis,"Acceso Ofelia Puerta 76 Puerta 7 
+Ceuta, 38168",+34873 83 70 03,fabregasplinio@example.net,Educacion,Carlos Gregory
+42,"King, Bradshaw and Anderson","Avenida de Dan Castilla 6
+Baleares, 20365",+34825672065,nmachado@example.com,Comunicaciones,Cory Clark
+43,Romero PLC,"Pasaje de Aitor Maza 55
+Segovia, 44004",+34 724 18 23 11,ucid@example.net,Banca,Donna Williams
+44,"Bennett, Cook and Estrada","Urbanización de Lorenza Pareja 58 Piso 5 
+Zaragoza, 09808",+34 871 65 99 47,cortesgervasio@example.com,Banca,Brent Brown
+45,Davis-Clark,"Urbanización de Alejandra Guzmán 12 Puerta 3 
+Salamanca, 22344",+34 820 49 34 69,carballoprudencia@example.net,Comunicaciones,Melanie Melton
+46,Carrillo and Sons,"C. de Timoteo Montes 7
+Alicante, 04556",+34942983214,lbriones@example.org,Comunicaciones,David Whitehead
+47,"Smith, Davis and Stuart","Callejón Perla Tamarit 23 Piso 8 
+Badajoz, 14309",+34 971 664 197,obernal@example.net,Comunicaciones,Elizabeth Smith
+48,Peterson-Ramirez,"C. Armida Esparza 5 Apt. 88 
+Badajoz, 17743",+34944119531,kbenet@example.org,Comunicaciones,Jasmine Bell MD
+49,Gonzales-Barker,"Glorieta de Pepe Azorin 12
+Soria, 30280",+34 820 730 004,pinaedelmira@example.com,Comunicaciones,Sheila Russo
+50,Jones-Warren,"C. Juan Francisco Castells 178 Apt. 01 
+Guadalajara, 10496",+34948501172,huguetteo@example.net,Alimentos,Karina Mcmahon
+51,Bruce Group,"Via Emelina Huertas 1
+Murcia, 35433",+34 853 655 628,maria-carmen47@example.net,Educacion,Erica Estrada
+52,Harper and Sons,"Paseo de Gerardo Casal 93 Piso 6 
+Guadalajara, 40233",+34 978 370 164,ablanch@example.org,Gubernamental,Karen Alvarez
+53,Miller and Sons,"Acceso de Consuela Rios 585
+Cantabria, 27406",+34 984 152 672,barrioscandelas@example.net,Banca,Michael Evans
+54,Williams LLC,"Alameda de Miguel Ángel Cuesta 36
+Ávila, 48334",+34952904691,galvandaniel@example.net,Alimentos,Linda Henderson
+55,Fry and Sons,"C. Goyo Cerro 9
+Soria, 02779",+34 874 68 31 56,herbertosaura@example.com,Educacion,Heather Clark
+56,Ritter-Cole,"Cuesta Segismundo Gómez 89 Apt. 03 
+Navarra, 35973",+34 922746396,victor-manuel39@example.org,Gubernamental,Adrian Brown
+57,"Carlson, Jones and Hill","Paseo de Felisa Maza 54
+Soria, 19118",+34987184725,dario07@example.com,Banca,Michael Robertson
+58,Bennett LLC,"Pasadizo de Lupe Calleja 184 Puerta 0 
+Álava, 45771",+34 827 237 859,herviamarianela@example.net,Comunicaciones,Jason Vang
+59,"Gray, Whitehead and Morales","Calle Alexandra Álvarez 14 Puerta 2 
+Melilla, 47602",+34 872333987,anita39@example.net,Alimentos,Derrick Hickman
+60,"Flores, Hernandez and Hopkins","Paseo Martirio Silva 3 Piso 4 
+Asturias, 10657",+34 876 492 127,galvezcarmela@example.com,Banca,Kevin Smith
+61,"Gray, Smith and Alvarez","Avenida de José Mari Casado 748 Apt. 17 
+Asturias, 01470",+34 844 00 52 12,andres-felipe12@example.com,Comunicaciones,Randy Murray
+62,"Lopez, Henry and Johnson","Paseo de Graciana Pla 22
+Guipúzcoa, 36505",+34803283658,polomarina@example.org,Gubernamental,Jack Huerta
+63,Gutierrez Ltd,"Camino de Dora Aguiló 1 Piso 0 
+Guipúzcoa, 04387",+34 932 72 75 46,itenorio@example.org,Alimentos,Brandon Dean
+64,Garcia Group,"Cañada Encarnacion Ferrera 690 Piso 4 
+Las Palmas, 49784",+34972 124 910,florencio50@example.com,Alimentos,Frederick Townsend
+65,"Solis, Gibbs and Mercer","C. Consuelo Peláez 45 Piso 9 
+Álava, 09124",+34 926557301,herranzmaristela@example.net,Alimentos,David White
+66,Roberts Group,"Ronda de Imelda Rodriguez 49
+Guipúzcoa, 27662",+34 825013275,tsanabria@example.org,Banca,Rebekah Walker
+67,Carter and Sons,"Camino de Jordán Rosales 60 Puerta 0 
+Toledo, 07437",+34 880 76 99 10,beldachema@example.org,Gubernamental,Diane Phillips
+68,Shaw-Gray,"Pasaje David Almeida 21
+Palencia, 21572",+34 872375945,josue81@example.net,Gubernamental,Kelly Pierce
+69,Hoffman-Hubbard,"C. Daniela Haro 91
+Málaga, 12461",+34 871 617 104,rodrigopelaez@example.com,Alimentos,Megan Lane
+70,"Baker, Nunez and Williams","Rambla Matilde Rodríguez 317 Puerta 6 
+Madrid, 37317",+34841 05 94 31,rene01@example.net,Gubernamental,Elizabeth Wilson
+71,"Bryan, Williams and Perkins","Plaza de María Pilar Campillo 12 Piso 1 
+Toledo, 06883",+34 842 34 85 19,godofredo06@example.com,Gubernamental,Kathryn Hansen
+72,"Sexton, King and Cruz","Vial Samanta Camino 52
+Melilla, 04976",+34 887 325 384,cerverasigfrido@example.org,Educacion,Timothy Frye
+73,Estrada-Johnson,"Cuesta de Tamara Carballo 95
+Huelva, 10124",+34881 567 332,esaura@example.com,Banca,Jessica Sullivan
+74,Rangel-Garcia,"Pasadizo Marcio Araujo 54 Piso 3 
+Barcelona, 50922",+34884 97 55 80,marta68@example.com,Banca,Robert Duncan
+75,Walker-Nichols,"Alameda Jorge Porras 25
+Segovia, 34721",+34 743 952 698,pepito20@example.net,Gubernamental,Sara Herrera
+76,Bell-Diaz,"Cuesta de Moreno Aragonés 4 Piso 4 
+Ceuta, 31285",+34 945 530 884,victoriano21@example.com,Educacion,Catherine Jones
+77,Esparza-Bowen,"Callejón de Mamen Anguita 34 Puerta 3 
+Tarragona, 09400",+34 888146499,azeneth17@example.net,Alimentos,Carol Craig
+78,"Martin, Guzman and Mendez","Ronda de Olivia Velázquez 71
+Cantabria, 36754",+34982 86 81 66,sancho73@example.com,Comunicaciones,Natalie Dennis
+79,Clark Inc,"Plaza de Diego Vargas 91
+Santa Cruz de Tenerife, 10294",+34883 250 580,fuenteana@example.org,Gubernamental,Jasmine Graham
+80,Page Group,"Acceso Román Laguna 53
+Albacete, 38552",+34800 102 439,fcespedes@example.net,Comunicaciones,Mary Vargas
+81,"Clarke, West and Moore","Ronda José Ángel Gras 25
+Las Palmas, 47620",+34 977 998 612,apeiro@example.com,Alimentos,Shawn Kirby
+82,Schultz PLC,"Pasadizo Ana Belén Goñi 522
+Ciudad, 08614",+34 981 290 954,sorayamariscal@example.net,Gubernamental,Jonathan Hernandez
+83,Vazquez-Hernandez,"Acceso Ariadna Prieto 1
+Lleida, 11090",+34 886 06 11 11,vcases@example.com,Gubernamental,Michael Petersen
+84,"Vaughan, Wong and Ellis","Plaza de Jose Carlos Cisneros 124
+Valencia, 48510",+34825 47 99 47,dgaray@example.net,Alimentos,Phillip Morton
+85,"Bradley, Smith and Sampson","Avenida Jose Marín 45
+León, 36532",+34821529620,ivalls@example.org,Comunicaciones,Devin Avila
+86,"Pugh, Evans and Davis","Acceso Emiliana Cárdenas 9 Apt. 55 
+Girona, 11793",+34 872 106 359,carroolimpia@example.com,Banca,Christopher Khan
+87,"Humphrey, Deleon and Martinez","Cañada de Nidia Nuñez 36
+Teruel, 21525",+34807 50 92 44,marquezmanuelita@example.net,Educacion,Tammy Nunez
+88,Nguyen-Sherman,"C. de Raimundo Rivera 576 Piso 7 
+Asturias, 49924",+34 982 077 661,yfiol@example.net,Gubernamental,Christopher Hall
+89,"Freeman, King and Jackson","Acceso Carmina Montero 89
+Murcia, 07532",+34841 000 445,maxi21@example.org,Banca,Christopher Wilson
+90,Drake-Davis,"Camino América Ropero 44 Puerta 9 
+Soria, 25988",+34885 97 05 95,victorino79@example.net,Banca,Joseph Castro
+91,"Thomas, Herrera and Chandler","Paseo Filomena Rebollo 49
+Huelva, 35902",+34732 85 72 42,febevalero@example.com,Comunicaciones,John Flowers
+92,"Todd, Turner and Smith","Pasadizo Víctor Mesa 959
+Barcelona, 01052",+34 976886303,castanedamaria-belen@example.com,Banca,James Hess
+93,Alexander-Harvey,"Camino Rafael Ballesteros 49
+La Rioja, 50103",+34803840108,atalavera@example.net,Educacion,Jonathan Harris
+94,Reyes Inc,"Cuesta Silvestre Torrent 8
+Zamora, 07394",+34 844 80 16 03,vigilsandalio@example.com,Alimentos,Ms. Linda Humphrey PhD
+95,Watson PLC,"Callejón Juan Antonio Alberdi 48
+Navarra, 27699",+34 869 33 39 80,aurora36@example.org,Gubernamental,Robert Olson
+96,Robertson LLC,"Alameda Paulino Pedrosa 40 Piso 3 
+Pontevedra, 34463",+34 806 21 87 70,benjamin03@example.net,Gubernamental,Christina Turner
+97,"Wells, Hudson and Rodriguez","Alameda de Reynaldo Valenciano 81
+Valladolid, 50447",+34737 72 52 66,alonso47@example.net,Gubernamental,Eric Chapman
+98,"Mcdonald, Horton and Freeman","Avenida de Osvaldo Piquer 4 Piso 0 
+Navarra, 22894",+34 855 612 303,felixelorza@example.com,Alimentos,Michael Crane
+99,Palmer-Wyatt,"Calle Gervasio Avilés 52
+Albacete, 22155",+34 972 12 01 23,gtaboada@example.net,Alimentos,Jamie Armstrong
