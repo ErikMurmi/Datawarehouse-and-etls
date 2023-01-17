@@ -3,6 +3,7 @@ from transform.transform_contratos import traContrato
 from transform.transform_detalle_contratos import traDetalle
 from transform.transform_proformas import traProforma
 from transform.transform_servicios import traServicio
+from data.generator import generateData
 from extract.generic import extData
 from load.generic import loadData
 from datetime import datetime
@@ -11,6 +12,8 @@ import pandas as pd
 import traceback
 
 try:
+
+    generateData()
     extData('clientes.csv','cliente')
     extData('proformas.csv','proforma')
     extData('contratos.csv','contrato')
