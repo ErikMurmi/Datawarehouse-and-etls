@@ -21,7 +21,7 @@ El proyecto consta de cuatro partes fundamentales:
 
 
 
-## :white_check_mark:Procesos ETL
+## :gear:Procesos ETL
 
 - Se generó archivos tanto para la extracción, transformación y carga de datos.
 
@@ -29,7 +29,7 @@ El proyecto consta de cuatro partes fundamentales:
 
 
 
-## :white_check_mark:Base de Datos MySQL
+## :signal_strength:Base de Datos MySQL
 
 - Se creó la bodega de datos con el staging y el sor y una base de datos externa para obtener los datos de la empresa de la tabla clientes. 
 
@@ -37,7 +37,7 @@ El proyecto consta de cuatro partes fundamentales:
 ![image](https://user-images.githubusercontent.com/62667937/213582365-872c167a-1651-48f2-b92c-bd69b02211a1.png)
 
 
-## :white_check_mark:Visualización de datos en Power BI
+## :eye_speech_bubble:Visualización de datos en Power BI
 
 - Se genero los dashboars correspondientes para la visualización de cada indicador planteado en un inicio sobre la empresa.
 
