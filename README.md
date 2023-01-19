@@ -5,35 +5,35 @@ toma de desiciones.
 
 El proyecto consta de cuatro partes fundamentales:
 
-* [Generación de datos con Faker](#)
+* [Generación de datos con Faker](#Generación de datos con Faker)
 
-* [Procesos ETL](#)
+* [Procesos ETL](#Procesos ETL)
 
-* [Base de Datos MySQL](#)
+* [Base de Datos MySQL](#Base de Datos MySQL)
 
 * [Visualización de datos en Power BI](#)
 
-## :hammer:Transform
+## :hammer:Generación de datos con Faker
 
-- Se generó un archivo transform por cada tabla en stagin.
+- Para la generación de datos se utilizó algunas funciones de la libreria de faker para poder tene datos aleatoriamente e insertarlos en los campos necesitados. 
 
-![image](https://user-images.githubusercontent.com/62667937/198377192-a8dfc6dc-0bc8-46ca-9448-ebb1258ab42c.png)
-
-- Se agregó un archivo transformations el cual contiene todas las funciones que nos servirá para realizar las transformaciones de los datos.
-
-- ![image](https://user-images.githubusercontent.com/62667937/198377560-7f662294-e070-4adb-a801-faf84def58f8.png)
+![image](https://user-images.githubusercontent.com/62667937/213579355-2c5ea73b-f188-4aed-b2a2-0edd44bcfb70.png)
 
 
 
-## :white_check_mark:Load
+## :white_check_mark:Procesos ETL
 
-- Se generó un archivo load por cada tabla en sor.
+- Se generó archivos tanto para la extracción, transformación y carga de datos.
 
-![image](https://user-images.githubusercontent.com/62667937/198377785-43286d62-90f0-4801-ba49-7aee089a3357.png)
+![image](https://user-images.githubusercontent.com/62667937/213579535-89f6225c-e046-4738-a30c-975b492a1738.png)
 
 
-- En cada load se utilizó la función merge de la librería de python pandas, que nos permite fucionar dos tablas en este caso la de stg y la del sor con el fin de que al hacer una nueva carga en el sor no se dupliquen datos y solo queden los últimos transformados.
 
-![image](https://user-images.githubusercontent.com/62667937/198378958-f938cf99-ac1c-44e4-a0b5-500b4dcf8f3c.png)
+## :white_check_mark:Base de Datos MySQL
+
+- Se generó archivos tanto para la extracción, transformación y carga de datos.
+
+![image](https://user-images.githubusercontent.com/62667937/213579535-89f6225c-e046-4738-a30c-975b492a1738.png)
+
 
 
