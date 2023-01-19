@@ -38,13 +38,14 @@ def extDataDB(origin,table):
 
 def loadInitialDB(filePath,name,db):
     try:
-        con_db_stg = Db_Connection(database=db)
-        ses_db_stg = con_db_stg.start()
+        con_db = Db_Connection(database=db)
+        ses_db = con_db.start()
 
-        if ses_db_stg == -1:
+        if ses_db == -1:
             raise Exception(f"The give database type {type} is not valid")
-        elif ses_db_stg == -2:
+        elif ses_db == -2:
             raise Exception("Error trying to connect to the b2b_dwh_staging")
+            
         data_csv = pd.read_csv(f"data/{filePath}")
         #print('nombre:',name)
         headers = data_csv.columns
@@ -59,12 +60,12 @@ def loadInitialDB(filePath,name,db):
             tableName = name
             try:
                 query = "CALL truncate_if_exists(%s);"
-                ses_db_stg.connect().execute(query,tableName)
+                ses_db.connect().execute(query,tableName)
                 print('Se trunco la tabla ', tableName)
             except:
                 print('Aun no existe la tabla')
             df_data_ext = pd.DataFrame(dic_headers)
-            df_data_ext.to_sql(tableName,ses_db_stg,if_exists='append',index=False)
+            df_data_ext.to_sql(tableName,ses_db,if_exists='append',index=False)
         #print(data_csv)
     except:
         traceback.print_exc()

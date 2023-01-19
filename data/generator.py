@@ -1,6 +1,10 @@
+#Generar datos
 from faker import Faker
-from datetime import timedelta, date,datetime
+#Sumar fechas
+from datetime import timedelta
+#Leer .csv
 import csv 
+#Generar randoms
 import random
 
 
@@ -50,25 +54,27 @@ def generateData():
         #['numero', 'fecha', 'vendedor','cliente' ,'subtotal','iva','total','descripcion']
         proformas += [[numProforma,fechaProforma,fake.name(),random.randint(1,len(clientes)),subtotal,iva,total,fakeEs.text()]]
         hayContrato = bool(random.choice([True, False]))
-        #fechaInicio = fake.date.soon(random.randint(0,30),fechaProforma)
+        
         if hayContrato:
-            maximo_aceptacion = fechaProforma+timedelta(days=random.randint(1,30))
-            fechaInicio = fake.date_between(fechaProforma,end_date=maximo_aceptacion)
+            fechaInicio = fechaProforma+timedelta(days=random.randint(1,30))
+            #fechaInicio = fake.date_between(fechaProforma,end_date=maximo_aceptacion)
             meses = random.randint(6,36)
-            end_date=fechaInicio+timedelta(30*meses)
-            fechaFin = fake.date_between(fechaInicio,end_date=end_date)
+            fechaFin=fechaInicio+timedelta(30*meses)
+            #fechaFin = fake.date_between(fechaInicio,end_date=end_date)
             numContratos+=1
             #['numero_contrato', 'numero_proforma', 'fecha_inicio', 'fecha_fin','descripcion','horas_contratadas','tipo_solucion_tecnologica']
             tipoSolucion = random.choice(tipos_solucion)
             valorHora = costos_horas[tipoSolucion]
             horasContratadas = random.randint(10,1500)
+
             while horasContratadas*valorHora > total*0.6:
                 horasContratadas = random.randint(10,1500)
-            contratos += [[numContratos,numProforma,fechaInicio,fechaFin,fakeEs.text(),horasContratadas,random.choice(tipos_solucion)]]
+
+            contratos += [[numContratos,numProforma,fechaInicio,fechaFin,fakeEs.text(),horasContratadas,tipoSolucion]]
             #Guardar los detalles del contrato
             #['numero_contrato', 'inversion','ganancia' ,'valor_hora_estimado']
-            inversion = round(random.uniform(horasContratadas,total*0.8),2)
-            inversion > valorHora * horasContratadas
+            #inversion > valorHora * horasContratadas
+            inversion = round(random.uniform(valorHora*horasContratadas,total*0.8),2)
             d_Contratos+=[[numContratos,inversion,total,valorHora]]
             cantidadServicios = random.randint(1,20)
             for _ in range(cantidadServicios):

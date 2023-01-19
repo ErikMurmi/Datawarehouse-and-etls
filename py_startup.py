@@ -5,6 +5,8 @@ from transform.transform_proformas import traProforma
 from transform.transform_servicios import traServicio
 from data.generator import generateData
 from extract.generic import extData
+from extract.extract_db import loadInitialDB
+from extract.extract_db import extDataDB
 from load.generic import loadData
 from datetime import datetime
 import pandas as pd
@@ -13,8 +15,10 @@ import traceback
 
 try:
 
+   
     generateData()
-    extData('clientes.csv','cliente')
+    loadInitialDB('clientes.csv','cliente','compuequip_dos')
+    extDataDB('compuequip_dos','cliente')
     extData('proformas.csv','proforma')
     extData('contratos.csv','contrato')
     extData('wrd_Contratos.csv','detalle_contrato')
