@@ -31,9 +31,18 @@ El proyecto consta de cuatro partes fundamentales:
 
 ## :white_check_mark:Base de Datos MySQL
 
-- Se generó archivos tanto para la extracción, transformación y carga de datos.
+- Se creó la bodega de datos con el staging y el sor y una base de datos externa para obtener los datos de la empresa de la tabla clientes. 
 
-![image](https://user-images.githubusercontent.com/62667937/213579535-89f6225c-e046-4738-a30c-975b492a1738.png)
+
+![image](https://user-images.githubusercontent.com/62667937/213582365-872c167a-1651-48f2-b92c-bd69b02211a1.png)
+
+
+## :white_check_mark:Visualización de datos en Power BI
+
+- Se genero los dashboars correspondientes para la visualización de cada indicador planteado en un inicio sobre la empresa.
+
+
+![image](https://user-images.githubusercontent.com/62667937/213582783-70c98d5c-e057-4f8e-af8a-03d6c12abdbe.png)
 
 
 
