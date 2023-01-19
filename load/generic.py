@@ -42,7 +42,7 @@ def loadData(codigoETL,filePath,name):
             for row in data_tra.itertuples(index=False):
                 for header, value in zip(headers, row):
                     dim_data_dict[header].append(value)
-
+        # print("data tra",data_tra)
         if dim_data_dict[headers[0]]:
             df_dim_data = pd.DataFrame(dim_data_dict)
             merge_data = df_dim_data.merge(data_sor, indicator='i', how='outer').query('i == "left_only"').drop('i', axis=1)

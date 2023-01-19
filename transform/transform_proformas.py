@@ -3,7 +3,7 @@ from util.db_connection import Db_Connection
 import pandas as pd
 import traceback
 
-def traProforma(process):
+def traProforma(codigoETL):
     try:
         pro_db_stg = Db_Connection()
         ses_db_stg = pro_db_stg.start()
@@ -43,7 +43,7 @@ def traProforma(process):
                 proforma_tra_dict["iva"].append(iva)
                 proforma_tra_dict["total"].append(tot)
                 proforma_tra_dict["descripcion"].append(des)
-                proforma_tra_dict["codigo_etl"].append(process)
+                proforma_tra_dict["codigo_etl"].append(codigoETL)
         if proforma_tra_dict['numero']:
             df_cha_tra=pd.DataFrame(proforma_tra_dict)
             df_cha_tra.to_sql('proforma_tra',ses_db_stg,if_exists='append',index=False)

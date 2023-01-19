@@ -3,7 +3,7 @@ from util.db_connection import Db_Connection
 import pandas as pd
 import traceback
 
-def traDetalle(process):
+def traDetalle(codigoETL):
     try:
         con_db_stg = Db_Connection()
         ses_db_stg = con_db_stg.start()
@@ -33,7 +33,7 @@ def traDetalle(process):
                 detalle_tra_dict["inversion"].append(inv)
                 detalle_tra_dict["ganancia"].append(gan)
                 detalle_tra_dict["valor_hora_estimado"].append(val)         
-                detalle_tra_dict["codigo_etl"].append(process)
+                detalle_tra_dict["codigo_etl"].append(codigoETL)
         if detalle_tra_dict['numero_contrato']:
             df_cha_tra=pd.DataFrame(detalle_tra_dict)
             df_cha_tra.to_sql('detalle_contrato_tra',ses_db_stg,if_exists='append',index=False)

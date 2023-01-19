@@ -3,7 +3,7 @@ from util.db_connection import Db_Connection
 import pandas as pd
 import traceback
 
-def traCliente(process):
+def traCliente(codigoETL):
     try:
         con_db_stg = Db_Connection()
         ses_db_stg = con_db_stg.start()
@@ -41,7 +41,7 @@ def traCliente(process):
                 cliente_tra_dict["correo"].append(cor)
                 cliente_tra_dict["sector"].append(sec)
                 cliente_tra_dict["representante"].append(rep)
-                cliente_tra_dict["codigo_etl"].append(process)
+                cliente_tra_dict["codigo_etl"].append(codigoETL)
         if cliente_tra_dict['numero_cliente']:
             df_cha_tra=pd.DataFrame(cliente_tra_dict)
             df_cha_tra.to_sql('cliente_tra',ses_db_stg,if_exists='append',index=False)

@@ -1,40 +1,31 @@
-from transform.transform_clientes import traCliente
-from transform.transform_contratos import traContrato
-from transform.transform_detalle_contratos import traDetalle
-from transform.transform_proformas import traProforma
-from transform.transform_servicios import traServicio
+
 from data.generator import generateData
-from extract.generic import extData
 from extract.extract_db import loadInitialDB
 from extract.extract_db import extDataDB
-from load.generic import loadData
 from datetime import datetime
 import pandas as pd
+from extract.extract_process import extraction_process
+from transform.transform_process import transform_process
+
 
 import traceback
 
 try:
 
    
-    generateData()
-    loadInitialDB('clientes.csv','cliente','compuequip_dos')
-    extDataDB('compuequip_dos','cliente')
-    extData('proformas.csv','proforma')
-    extData('contratos.csv','contrato')
-    extData('wrd_Contratos.csv','detalle_contrato')
-    extData('servicios.csv','servicio')
+     generateData()
+     loadInitialDB('clientes.csv','cliente','compuequip_dos')
+     extDataDB('compuequip_dos','cliente')
+
+#EXTRACTS
+
+     extraction_process()
+
+# METODO QUE EJECUTA LA TRANSFORMACION Y CARGA DE LOS DATOS
+
+     transform_process()
     
-    traCliente(1)
-    traProforma(1)
-    traContrato(1)
-    traDetalle(1)
-    traServicio(1)
     
-    loadData(1,'clientes.csv','cliente')
-    loadData(1,'proformas.csv','proforma')
-    loadData(1,'contratos.csv','contrato')
-    loadData(1,'wrd_Contratos.csv','detalle_contrato')
-    loadData(1,'servicios.csv','servicio')
     
 except:
     traceback.print_exc()

@@ -3,7 +3,7 @@ from util.db_connection import Db_Connection
 import pandas as pd
 import traceback
 
-def traServicio(process):
+def traServicio(codigoETL):
     try:
         ser_db_stg = Db_Connection()
         ses_db_stg = ser_db_stg.start()
@@ -41,7 +41,7 @@ def traServicio(process):
                 servicio_tra_dict["costos_extras"].append(func_nulls(cos_ext))
                 servicio_tra_dict["costos_subsanados"].append(func_nulls(cos_sub))
                 servicio_tra_dict["descripcion"].append(des)
-                servicio_tra_dict["codigo_etl"].append(process)
+                servicio_tra_dict["codigo_etl"].append(codigoETL)
         if servicio_tra_dict['numero_servicio']:
             df_cha_tra=pd.DataFrame(servicio_tra_dict)
             df_cha_tra.to_sql('servicio_tra',ses_db_stg,if_exists='append',index=False)
