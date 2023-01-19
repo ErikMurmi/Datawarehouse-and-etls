@@ -5,13 +5,13 @@ toma de desiciones.
 
 El proyecto consta de cuatro partes fundamentales:
 
-* [Load](#Generación de datos con Faker)
+* [Generación de datos con Faker](#)
 
-* [Transform](#Procesos ETL)
+* [Procesos ETL](#)
 
-* [Load](#Base de Datos MySQL)
+* [Base de Datos MySQL](#)
 
-* [Load](#Visualización de datos en Power BI)
+* [Visualización de datos en Power BI](#)
 
 ## :hammer:Transform
 
